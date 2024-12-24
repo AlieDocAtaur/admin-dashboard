@@ -22,6 +22,17 @@
 .main{
     grid-column: 2/7;
     grid-row: 2/7;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+}
+.horizontal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.vertical{
+    display: flex;
+    flex-direction: row;
 }
 .side-bar{
     grid-row: 1/7;
